@@ -1,0 +1,79 @@
+/* reset style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 20%;
+}
+
+/*custom style*/
+nav {
+    background-color: rgb(167, 152, 152);
+    padding: 0% 2%;
+
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav span {
+    color: orangered;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*global style*/
+.container {
+    width: 90%;
+    margin: 0% auto;
+    padding: 12% 0;
+}
+
+.d-inline-block {
+
+    display: inline-block;
+}
+
+.bg-image {
+    background-image: url("my building.jpg");
+
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+
+
+}
+
+h2 {
+    color: aliceblue
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.596);
+    height: 100%;
+}
+
+.text-white {}
+
+.banner-aside {}
+
+hr {
+    margin: 4% 0;
+    width: 50%;
+    border: 2px solid white;
+
+}
+
+.bg-image form {}

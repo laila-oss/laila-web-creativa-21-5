@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="user">User Id:</label>
+            <input id type="text" required maxlength="12" minlength="5">
+        </div>
+        <br>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input id="pass" type="password" maxlength="12" minlength="7">
+        </div>
+        <br>
+
+        <div>
+            <label>Name:</label>
+            <input type="text" required pattern="[A-Za-z]+">
+        </div>
+        <br>
+
+        <div>
+            <label>Address:</label>
+            <input type="text">
+        </div>
+        <br>
+
+        <label>Country:</label>
+        <select name="country">
+            <option>Please select a country</option>
+            <option value="cairo">Cairo</option>
+            <option value="Alex">Alex</option>
+        </select>
+        <br>
+        <br>
+
+        <div>
+            <label> ZIP Code:</label>
+            <input type="text" pattern="[0-9]+" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Email</label>
+            <input type="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Sex:</label>
+            <input type="radio" name="s" value="Male" required><span>Male</span>
+            <input type="radio" name="s" value="Female" required><span>Female</span>
+        </div>
+        <br>
+
+        <div>
+            <label>Language:</label>
+            <input type="checkbox" name="English" required><span>English</span>
+            <input type="checkbox" name="Non English"><span>Non English</span>
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <label for="area">About:</label>
+            <br>
+            <textarea id="area" rows="10" cols="50"></textarea>
+        </div>
+
+        <br>
+        <div style="text-align: center;">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
