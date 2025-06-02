@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {}
+
+a {
+    text-decoration: none;
+}
+
+.d-inline-block {
+    display: inline-block;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0% auto;
+
+
+}
+
+nav {
+    background-color: black;
+    padding: 2% 10%;
+
+
+}
+
+span {
+    color: orangered;
+}
+
+a {
+    color: white
+}
+
+
+
+nav ul li {
+    padding: 0% 1%;
+}
+
+.logo {
+    margin-right: 5%;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.bg-img {
+
+    background-image: url(london.jpeg);
+    background-repeat: no-repeat;
+    background-size: 136% 139%;
+}
